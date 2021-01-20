@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<title>Mini site</title>
+<link rel="stylesheet" type="text/css" href="css/scroll/rushmorescroll.css">
+<link rel="stylesheet" type="text/css" href="css/dialog/dialog.css">
+<link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+<script>
+</script>
+<body>
+<!-- DIV DEL LOADING Y TAPA DEL SITE -->
+<div id="tapa"></div>
+<div id="loadDiv">Cargado 0%</div>
+
+<div id="dialog">
+    <div id="topAlignText">
+        <div id="messageDial"></div>
+    </div>
+    <div id="closeDial">X</div>
+</div>
+
+<!-- Navegacion -->
+<nav class="navCss">
+    <ul>
+        <li data-class="seccion1" data-numS="1" data-state="off" class="offSec">Scroll&AJAX-Json</li>
+        <li data-class="seccion2" data-numS="2" data-state="off" class="offSec">SetGet eleDOM</li>
+        <li data-class="seccion3" data-numS="3" data-state="off" class="offSec">Threshold Camera</li>
+        <li data-class="seccion3" data-numS="4" data-state="off" class="offSec">Mask OpenClose</li>
+    </ul>
+</nav>
+
+<nav class="navDownCss">
+    <div id="arrowL" class="offArrow">IZQ</div>
+    <div id="arrowD" class="offArrow">DCHA</div>
+</nav>
+
+
+<div id="container">
+
+    <div id="scrAllCont">
+
+        <section id="seccion1DIV">
+            
+            <!-- DIV DE LLAMADA AL JSON y ESCRIBIR EL CONTENIDO DEL JSON -->
+            <div id="call">Call Json</div>
+            <div id="write">Write Data</div>
+
+            <div id="capanueva"></div>
+
+            <!-- DIV del scroll1 -->
+            <div id="drag1">
+                <div class="boundsSCR"><div class="dragdropSCR"><img src="img/dragbar.jpg" width="100%" height="100%"></div></div>
+                <div class="containerSCR">
+                        <div class="textoSCR">
+                                <div id="contenido"> 
+                                    <br>                                
+                                    <span>Foto de Nico de bebe.</span>
+                                    <img src="img/nico.jpg">
+
+                                    <span>Foto de WeTransfer.</span>
+                                    <img src="img/plus.jpg">
+
+                                    <span>Foto de los goonies.</span>
+                                    <img src="img/sanjordi.jpg">
+                                    
+                                    <br><br>
+                                    <span>Texto</span>
+                                    <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    <br><br>
+                                    <span>FIN</span>
+                                </div>
+                        </div>
+                </div>
+            </div>   
+            <div id="posDrag1"></div>
+            <!-- end divs del scroll1 -->
+        </section>  
+        
+        <section id="seccion2DIV">
+
+            <div id="divCSS"></div>
+
+            <div id="showbot">Show</div>
+            <div id="hidebot">Hide</div>
+
+            <div id="setcssbot">Get CSS</div>
+
+            <div id="div_list">
+                <label>Elige CSS:
+                    <select class="estilos" name="estilos">
+                        <option value="left">Left</option>
+                        <option value="top">Top</option>
+                        <option value="width">Width</option>
+                        <option value="height">Height</option>
+                        <option value="bgcolor">BG Color</option>
+                        <option value="rota">Rotar</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div id="div_input">
+                <input id='miinput' type='text'/>
+                <button id="btn_input">Set value</button>
+            </div>
+
+        </section>
+
+        <section id="seccion3DIV">
+
+            <div id="strCamera">Start Cameera</div>
+            <div id="strThershold">Start Thershold </div>
+
+            <!-- Camera view -->
+            <video id="camera--view" autoplay playsinline></video>
+            <!-- Canvas with the thredsold of camera-->
+            <div id="containerTHRE">
+                <div id="thredDic">
+                    <canvas id="output" width="200" height="200" style="border: 1px solid;"></canvas>
+                </div>
+            </div>
+
+        </section>        
+
+        <section id="seccion4DIV">
+
+            <div id="opMask">Abre Mascara</div>
+            <div id="clMask">Cierra Mascara</div>
+
+            <div id="maskDiv">
+                <img src="img/BN.jpg">
+                <canvas id="c" width="1200" height="675"></canvas>
+            </div>
+
+        </section>                
+    </div>
+
+</div>
+
+</body>
+<script src="dist/main.js"></script>
+</html>

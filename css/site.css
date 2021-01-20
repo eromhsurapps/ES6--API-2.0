@@ -1,0 +1,606 @@
+*{margin:0; padding:0;}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  margin-left: 0px; 
+  margin-right: 0px;
+  padding: 0;
+
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;  
+}
+
+/*
+  LOADING CSS
+*/
+#tapa {
+  position: absolute;
+
+  left: 0%;
+  top: 0px;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #ff0000;
+
+  z-index: 100;
+}
+
+#loadDiv {
+  position: absolute;
+
+  left: 45%;
+  top: 45%;
+
+  width: 100px;
+  height: 25px;
+
+  text-align: center;
+
+  z-index: 100;
+
+}
+
+
+
+/*
+
+  container AND scrscrAllCont
+
+*/
+
+#container {
+  position: absolute;
+
+  left: 0px;
+  left: 0px;
+
+  width: 100%;
+  height: 100%;
+}
+
+#scrAllCont {
+  position: relative;
+
+  width: 400%;
+  height: 100%;
+
+  left: 0px;
+  top: 0px;
+}
+
+
+
+
+
+/****************************
+
+    SECTION 1 - seccion1DIV
+
+****************************/
+ 
+
+
+#seccion1DIV {
+    position: relative;
+
+    float: left;
+
+    /*left: 0px;
+    top: 0px;*/
+
+    width: 25%;
+    height: 100%;
+
+    background-color: antiquewhite;
+
+    padding: 0; 
+    margin: 0;
+}
+
+      /*
+        SCROLL CSS
+      */
+      body.noScroll { overflow: hidden; } 
+
+      #drag1 {
+              position: absolute;
+
+              left: 30%;
+              top: 110px;
+
+              width: 500px;
+              height: 500px;
+
+              border: solid #FF0000 1px;
+              /*background-color: #CCCCCC;*/
+              z-index: 10;  
+            }
+
+            #posDrag1 {
+              position: absolute;
+
+              left: 10%;
+              top: 15%;
+
+              width: 80%;
+              height: 75%;
+
+              /*background-color: #ff4400;*/
+            }
+
+            #contenido {
+              position: relative;
+
+              width: 100%;
+
+              height: auto;
+            }
+
+            #contenido img {
+              width: 100%;
+            }
+
+            #contenido span {
+              display: block;
+              width: 100%;
+              text-align: center;
+
+              padding-bottom: 10px;
+          }
+
+      /*
+        BOTONES DE JSON 
+      */
+
+      #call {
+        position: absolute;
+
+        left: 2%;
+        top: 15%;
+
+        width: 100px;
+        height: 50px;
+
+        background-color:red;
+
+        cursor: pointer;
+
+        color: white;
+        text-align: center;        
+      }
+
+      #write {
+        /*visibility: hidden;*/
+        display: none;
+        
+        position: absolute;
+
+        left: 2%;
+        top: 35%;
+
+        width: 100px;
+        height: 50px;
+
+        background-color:red;
+
+        cursor: pointer;
+
+        opacity: 0;
+
+        color: white;
+        text-align: center;        
+      }
+
+
+/***************************
+
+    SECTION 2 - seccion2DIV
+
+****************************/
+ 
+#seccion2DIV {
+  position: relative;
+
+  float: left;
+
+  width: 25%;
+  height: 100%;
+
+  background-color: #F2F2F2;
+
+  padding: 0; 
+  margin: 0;  
+}
+
+      #div_input {
+        display: block;
+        
+        position: absolute;
+        
+        width: 80px;
+
+        left: 46%;
+        top: 30%;
+      }
+
+      #miinput {
+        position: absolute;
+
+        width: 80px;
+
+        left: 0px;
+        top: 0px;
+      }
+
+      #btn_input {
+        position: absolute;
+        
+        width: 80px;
+
+        left: 0px;
+        top: 30px;
+      }
+
+      #div_list {
+        position: absolute;
+        
+        width: 80px;
+
+        left: 46%;
+        top: 15%;
+      }
+
+      #divCSS {
+        position: absolute;
+
+        left: 46%;
+        top: 70%;
+
+        width: 100px;
+        height: 100px;
+
+        background-color: #18ff00;
+
+        text-align: center;          
+      }
+
+
+      #showbot {
+        position: absolute;
+
+        left: 72%;
+        top: 15%;
+
+        width: 100px;
+        height: 50px;
+
+        background-color: red;
+
+        cursor: pointer;
+
+        color: white;
+        text-align: center;
+      }
+      
+      #hidebot {
+        position: absolute;
+
+        left: 72%;
+        top: 35%;
+
+        width: 100px;
+        height: 50px;
+
+        background-color: red;
+
+        cursor: pointer;
+
+        color: white;
+        text-align: center;      
+      }
+
+      #setcssbot {
+        position: absolute;
+
+        left: 20%;
+        top: 15%;
+
+        width: 100px;
+        height: 50px;
+
+        background-color: red;
+
+        cursor: pointer;
+
+        color: white;
+        text-align: center;      
+      }
+
+
+
+
+/***************************
+
+    SECTION 3 - seccion2DIV
+
+***************************/
+ 
+#seccion3DIV {
+  position: relative;
+  float: left;
+
+  width: 25%;
+  height: 100%;
+
+  background-color: rosybrown;
+
+  padding: 0; 
+  margin: 0;  
+}
+
+    #strCamera {
+      position: absolute;
+
+      left: 43%;
+      top: 35%;
+
+      width: 100px;
+      height: 50px;
+
+      background-color: red;
+
+      cursor: pointer;
+
+      color: white;
+      text-align: center;  
+      
+      z-index: 3;
+    }
+
+    #strThershold {
+      display: none;
+
+      position: absolute;
+
+      left: 43%;
+      top: 50%;
+
+      width: 100px;
+      height: 50px;
+
+      background-color: red;
+
+      cursor: pointer;
+
+      color: white;
+      text-align: center;    
+      
+      z-index: 3;
+    }
+
+
+    #camera--view {
+      margin: auto;
+      position: absolute;
+      z-index: 1;
+      top: 0%;
+      left: 0%;
+      transform: translate(0%, -50%);
+      visibility: visible;
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      
+      z-index: 1;
+    }
+
+    #camera--view{
+      transform: scaleX(-1);
+      filter: FlipH;
+    }
+
+
+    #containerTHRE {
+      position: absolute;
+
+      left: 0%;
+      top: 0%;
+
+      width: 100%;
+      height: 100%;
+
+      /*background-color: brown;*/
+      z-index: 2;
+
+    }
+
+    #thredDic {
+      display:  block;
+      position: absolute;
+      
+      left: 0px;
+      top: 0px;
+
+      width: 100%;
+      height: 100%;
+
+      z-index: 101;
+      /*
+      background-color: blue;*/
+      
+      opacity: .8;
+    }
+
+    #thredDic {
+    transform: scaleX(-1);
+      filter: FlipH;
+    }
+
+
+/****************************
+
+    SECTION 1 - seccion1DIV
+
+****************************/
+ 
+
+
+#seccion4DIV {
+  position: relative;
+
+  float: left;
+
+  /*left: 0px;
+  top: 0px;*/
+
+  width: 25%;
+  height: 100%;
+
+  background-color: grey;
+
+  padding: 0; 
+  margin: 0;
+}    
+
+      #opMask {
+        position: absolute;
+
+        left: 22%;
+        top: 10%;
+
+        width: 100px;
+        height: 50px;
+
+        background-color: red;
+
+        cursor: pointer;
+
+        color: white;
+        text-align: center;
+      }
+
+      #clMask {
+        position: absolute;
+
+        left: 74%;
+        top: 10%;
+
+        width: 100px;
+        height: 50px;
+
+        background-color: red;
+
+        cursor: pointer;
+
+        color: white;
+        text-align: center;      
+      }
+
+
+      #maskDiv {
+        /*display: none;*/
+        position: absolute;
+        width: 1200px;
+        height: 675px;
+
+        top: 20%;
+        left: 20%;
+      }
+      #maskDiv img { 
+        position: absolute; 
+        width: 100%;
+        height: 100%;
+      }
+      #maskDiv canvas { position: absolute; }
+
+
+
+
+
+  /*****************
+
+    NAVIGATION CSS
+
+  *****************/
+
+  .navCss {
+    position: absolute;
+
+    top: 5px;
+    left: 10%;
+
+    width: 80%;
+    height: 20px;
+
+    z-index: 20;  
+  }
+
+  .navCss li {
+    float: left;
+    width: 25%;
+
+    list-style:none;
+
+    text-align: center;
+    
+    margin:0;
+    padding:0;
+
+    cursor: pointer;
+  }
+
+  .onSec {
+    color: crimson;
+  }
+
+  .offSec {
+    color: black;
+  }
+
+
+  .navDownCss {
+    position: absolute;
+
+    bottom: 5px;
+    left: 10%;
+
+    width: 80%;
+    height: 20px;
+
+    z-index: 20;  
+  }
+  
+  #arrowL {
+    position: absolute;
+    left: 0px;
+  }
+
+  #arrowD {
+    position: absolute;
+    right: 0px;
+  }
+
+  .offArrow {
+
+    opacity: .5;
+    cursor: default;
+  }
+
+  .onArrow {
+    opacity: 1;
+    cursor: pointer;
+}

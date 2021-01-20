@@ -1,0 +1,52 @@
+
+.containerSCR {
+  position: absolute;
+
+  left: 14px;
+  top: 0px;
+
+  width: 600px;
+  height: 50px;
+  
+  overflow: hidden;
+}
+
+.textoSCR {
+  position: absolute;
+
+  left: 5px;
+  top: 0px;
+
+  width: 600px;
+  height: 50px;
+}
+
+.boundsSCR {
+  position: relative;
+
+  left: 0px;
+  top: 0px;
+
+  width: 15px; 
+  height: 50px;
+
+  background-color: #F2F2F2;
+}
+
+.dragdropSCR {
+  position: absolute;
+
+  left: 0px;
+  top: 0px;
+
+  width: 15px;
+  height: 35px;
+
+  background-color: #FF0000;
+
+  cursor: pointer;
+}
+
+
+
+
